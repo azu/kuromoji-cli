@@ -24,7 +24,6 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
   },
   "keywords": [
     "kuromoji",
