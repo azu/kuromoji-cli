@@ -32,7 +32,7 @@
     "console",
     "repl"
   ],
-  "description": "",
+  "description": "Input text and Output tokenized text by kuromoji.js.",
   "dependencies": {
     "concat-stream": "^1.5.1",
     "kuromojin": "^1.0.1"
