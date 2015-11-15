@@ -1,0 +1,40 @@
+{
+  "name": "kuromoji-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/kuromoji-cli.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/kuromoji-cli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/kuromoji-cli/issues"
+  },
+  "version": "1.0.0",
+  "main": "lib/cli.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "kuromoji": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "kuromoji",
+    "cil",
+    "console",
+    "repl"
+  ],
+  "description": "",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "kuromojin": "^1.0.1"
+  }
+}
